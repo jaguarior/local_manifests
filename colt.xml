@@ -25,3 +25,5 @@
  <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="github" revision="lineage-18.1-caf" />
  <project name="NusantaraProject-ROM/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="11" />
  <project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="lineage-18.1" />
+
+</manifest>
