@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="github"
+        fetch="https://github.com" />
+
+<!-- DT -->
+ <project name="jaguarior/dxu" path="device/xiaomi/ulysse" remote="github" revision="colt" />
+ <project name="jaguarior/dxuc" path="device/xiaomi/ulysse-common" remote="github" revision="permissive" />
+          
+<!-- VT -->
+ <project name="jaguarior/vxu" path="vendor/xiaomi/ugg" remote="github" revision="colt" />
+ <project name="jaguarior/vxuc" path="vendor/xiaomi/ulysse-common" remote="github" revision="colt" />
+
+<!-- KT -->
+ <project name="mgs28-mh/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/ulysse" remote="github" clone-depth="1" revision="11" />
+
+</manifest>
