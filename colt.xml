@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="github"
+        fetch="https://github.com" />
+
+<!-- DT -->
+ <project name="jaguarior/dxu" path="device/xiaomi/ulysse" remote="github" revision="colt" />
+ <project name="jaguarior/dxuc" path="device/xiaomi/ulysse-common" remote="github" revision="permissive" />
+          
+<!-- VT -->
+ <project name="jaguarior/vxu" path="vendor/xiaomi/ugg" remote="github" revision="colt" />
+ <project name="jaguarior/vxuc" path="vendor/xiaomi/ulysse-common" remote="github" revision="colt" />
+
+<!-- KT -->
+ <project name="mgs28-mh/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/ulysse" remote="github" revision="11" />
+
+<!-- Custom Projects -->
+ <remove-project name="vendor/qcom/opensource/power" />
+ <remove-project name="hardware/qcom-caf/wlan" />
+ <remove-project name="vendor/qcom/opensource/dataservices" />
+ <remove-project name="vendor/qcom/opensource/data-ipa-cfg-mgr" />
+
+ <project name="Havoc-OS/android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="eleven" />
+ <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="github" revision="lineage-18.1-caf" />
+ <project name="NusantaraProject-ROM/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="11" />
+ <project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="lineage-18.1" />
