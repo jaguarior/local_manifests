@@ -13,7 +13,7 @@
  <project name="jaguarior/vxuc" path="vendor/xiaomi/ulysse-common" remote="github" revision="colt" />
 
 <!-- KT -->
- <project name="mgs28-mh/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/ulysse" remote="github" revision="11" />
+ <project name="mgs28-mh/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/ulysse" remote="github" clone-depth="1" revision="11" />
 
 <!-- Custom Projects -->
  <remove-project name="vendor/qcom/opensource/power" />
