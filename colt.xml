@@ -5,25 +5,20 @@
         fetch="https://github.com" />
 
 <!-- DT -->
- <project name="jaguarior/dxu" path="device/xiaomi/ulysse" remote="github" revision="colt" />
- <project name="jaguarior/dxuc" path="device/xiaomi/ulysse-common" remote="github" revision="permissive" />
-          
+ <project name="delmontaro/dxvayu" path="device/xiaomi/vayu" remote="github" clone-depth="1" revision="octavi" />
+
 <!-- VT -->
- <project name="jaguarior/vxu" path="vendor/xiaomi/ugg" remote="github" revision="colt" />
- <project name="jaguarior/vxuc" path="vendor/xiaomi/ulysse-common" remote="github" revision="colt" />
+ <project name="NusantaraROM-Devices/vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="github" clone-depth="1" revision="12" />
 
 <!-- KT -->
- <project name="mgs28-mh/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/ulysse" remote="github" clone-depth="1" revision="11" />
+ <project name="nullxception/kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" remote="github" clone-depth="1" revision="eleven" />
 
-<!-- Custom Projects -->
- <remove-project name="vendor/qcom/opensource/power" />
- <remove-project name="hardware/qcom-caf/wlan" />
- <remove-project name="vendor/qcom/opensource/dataservices" />
- <remove-project name="vendor/qcom/opensource/data-ipa-cfg-mgr" />
+<!-- SEPolicy -->
+ <project name="NusantaraProject-ROM/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="github" clone-depth="1" revision="11" />
 
- <project name="Havoc-OS/android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="eleven" />
- <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="github" revision="lineage-18.1-caf" />
- <project name="NusantaraProject-ROM/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="11" />
- <project name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="lineage-18.1" />
+<!-- QCOM Hardware -->
+ <project name="NusantaraProject-ROM/android_hardware_qcom_audio" path="device/xiaomi/vayu/qcom-caf/audio" remote="github" clone-depth="1" revision="10-sm8150" />
+ <project name="NusantaraProject-ROM/android_hardware_qcom_display" path="device/xiaomi/vayu/qcom-caf/display" remote="github" clone-depth="1" revision="10-sm8150" />
+ <project name="NusantaraProject-ROM/android_hardware_qcom_media" path="device/xiaomi/vayu/qcom-caf/media" remote="github" clone-depth="1" revision="10-sm8150" />
 
 </manifest>
