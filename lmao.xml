@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="github"
+        fetch="https://github.com" />
+
+<!-- DT -->
+ <project name="jaguarior/dxvayu" path="device/xiaomi/vayu" remote="github" revision="arrow-12.0" />
+
+<!-- VT -->
+ <project name="ArrowOS-Devices/android_vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="github" revision="arrow-12.0" />
+
+<!-- KT -->
+ <project name="nullxception/kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" remote="github" clone-depth="1" revision="eleven" />
+
+<!-- SEPolicy -->
+ <project name="NusantaraProject-ROM/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="github" clone-depth="1" revision="11" />
+
+</manifest>
