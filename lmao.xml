@@ -13,7 +13,4 @@
 <!-- KT -->
  <project name="nullxception/kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" remote="github" clone-depth="1" revision="eleven" />
 
-<!-- SEPolicy -->
- <project name="NusantaraProject-ROM/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="github" clone-depth="1" revision="11" />
-
 </manifest>
