@@ -17,8 +17,8 @@
  <project name="NusantaraProject-ROM/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="github" clone-depth="1" revision="11" />
 
 <!-- QCOM Hardware -->
- <project name="NusantaraProject-ROM/android_hardware_qcom_audio" path="device/xiaomi/vayu/qcom-caf/audio" remote="github" clone-depth="1" revision="10-sm8150" />
- <project name="NusantaraProject-ROM/android_hardware_qcom_display" path="device/xiaomi/vayu/qcom-caf/display" remote="github" clone-depth="1" revision="10-sm8150" />
- <project name="NusantaraProject-ROM/android_hardware_qcom_media" path="device/xiaomi/vayu/qcom-caf/media" remote="github" clone-depth="1" revision="10-sm8150" />
+ <project name="NusantaraProject-ROM/android_hardware_qcom_audio" path="hardware/qcom-caf/audio" remote="github" clone-depth="1" revision="10-sm8150" />
+ <project name="NusantaraProject-ROM/android_hardware_qcom_display" path="hardware/qcom-caf/display" remote="github" clone-depth="1" revision="10-sm8150" />
+ <project name="NusantaraProject-ROM/android_hardware_qcom_media" path="hardware/qcom-caf/media" remote="github" clone-depth="1" revision="10-sm8150" />
 
 </manifest>
