@@ -9,8 +9,8 @@
  <remove-project name="android_hardware_qcom_display" />
  <remove-project name="android_hardware_qcom_media" />
 
- <project path="hardware/qcom-caf/sm8150/audio" name="audio" remote="x" revision="y" />
- <project path="hardware/qcom-caf/sm8150/display" name="display" remote="x" revision="y" />
- <project path="hardware/qcom-caf/sm8150/media" name="media" remote="x" revision="y" />
+ <project path="hardware/qcom-caf/sm8150/audio" name="audio" remote="x" revision="arrow-11.0-caf-sm8150" />
+ <project path="hardware/qcom-caf/sm8150/display" name="display" remote="x" revision="arrow-11.0-caf-sm8150" />
+ <project path="hardware/qcom-caf/sm8150/media" name="media" remote="x" revision="arrow-11.0-caf-sm8150" />
 
 </manifest>
