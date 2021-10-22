@@ -5,10 +5,10 @@
         fetch="https://github.com" />
 
 <!-- DT -->
- <project name="jaguarior/dxvayu" path="device/xiaomi/vayu" remote="yahaha" revision="arrow-12.0" />
+ <project name="jaguarior/dxvayu" path="device/xiaomi/vayu" remote="yahaha" revision="arrow-11.0" />
 
 <!-- VT -->
- <project name="ArrowOS-Devices/android_vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="yahaha" revision="arrow-12.0" />
+ <project name="ArrowOS-Devices/android_vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="yahaha" revision="arrow-11.0" />
 
 <!-- KT -->
  <project name="nullxception/kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" remote="yahaha" clone-depth="1" revision="eleven" />
