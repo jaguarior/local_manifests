@@ -13,4 +13,7 @@
 <!-- KT -->
  <project name="nullxception/kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" remote="yahaha" clone-depth="1" revision="eleven" />
 
+<!-- Hardware -->
+ <project name="ArrowOS-Devices/android_hardware_xiaomi" path="hardware/xiaomi" remote="yahaha" clone-depth="1" revision="arrow-11.0" />
+
 </manifest>
